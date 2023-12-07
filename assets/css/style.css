@@ -1,0 +1,201 @@
+/*font-family: 'Be Vietnam Pro', sans-serif;*/
+  @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #F7F7F8;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.active {
+    font-weight: 700;
+    border-radius: 8px;
+    background: var(--white-95, #F1F1F3);
+    padding: 14px 24px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container{
+    width: calc(100% - 360px);
+    margin: auto;  
+}
+.navbar{
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  padding: 20px 0;
+ 
+  border-bottom: 1px solid var(--white-95, #F1F1F3);
+}
+.navbar .logo{
+    background-color: #FF9500;
+    width:fit-content;
+    border-radius: 10px;
+    padding: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.navbar-content{
+    flex-grow: 1;
+}
+.navbar-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    padding-left: 50px;
+}
+.navbar-content ul li a{
+    color: var(--grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.navbar .navbar-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+.navbar .signin{
+    color:#262626 ;
+}
+.navbar .login{
+    border-radius: 10px;
+    background-color:  #FF9500;
+    color: white;
+    padding: 14px 34px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.navbar .navbar-dropdown{
+    display: none;
+}
+ 
+/* <!-- ********************** Start Main  Section ************************ --> */
+.main-section{
+    margin-top: 100px;  
+    
+}
+.main-section .shape{
+    position: absolute;
+    left: -24px;
+    top: -24px;
+    width: 39px;
+    height: 43px;
+
+}
+.main-section .container{   
+    display: flex;
+    width: 941px;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: calc(100% - 470px);
+     
+}
+.main-section .row:first-of-type{
+    background-color: white;
+    display: flex;
+    gap:10px;
+    border-radius: 11px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-99, #FCFCFD);
+    padding: 14px 20px;
+    position: relative;
+}
+.main-section .main-logo{
+    border-radius: 6px;
+    background-color: #FFF4E5;
+    padding:14px;   
+}
+.main-section .main-logo svg{
+    width: 34px;
+    height: 34px;   
+}
+.main-section h1{
+    color: #1A1A1A;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;   
+}
+.main-section span{
+    color: #FF9500;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;   
+}
+.main-section .main-section-data{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 40px;
+    gap:10px;    
+}
+.main-section .main-section-data h2{
+    color: #262626;
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+     line-height: 150%; /* 57px */
+}
+.main-section .main-section-data p{
+    color: #262626;
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.main-section a{
+    display: flex;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.main-section .explore-courses{
+    color:#FFF;
+    background-color: #FF9500;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+.main-section .view-pricing{
+    color:#262626;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}

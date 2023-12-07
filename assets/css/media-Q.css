@@ -1,0 +1,140 @@
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 40px 16px;
+  }
+  .container {
+    width: calc(100% - 30px);
+    margin: auto;
+  }
+  .navbar .row {
+    justify-content: space-between;
+  }
+  .navbar .logo {
+    padding: 5px;
+  }
+  .navbar .logo svg {
+    width: 29.63px;
+    height: 29.63px;
+    flex-shrink: 0;
+  }
+  .navbar .navbar-content {
+    display: none;
+  }
+  .navbar .navbar-buttons {
+    gap: 20px;
+    font-size: 14px;
+  }
+  .navbar-buttons .login {
+    padding: 12px 20px;
+  }
+  .navbar .navbar-dropdown {
+    display: flex;
+  }
+    /* <!-- ********************** Start Main  Section ************************ --> */
+  .main-section .shape {
+        left: -0px;
+        top: -5px;
+  }
+    .main-section .container {
+        width: calc(100% - 17px);
+  }
+  .main-section .row:first-of-type{
+    padding: 14px;   
+  }
+  .main-section .main-logo {
+    padding: 12px;
+  }
+  .main-section .main-logo svg {
+    width: 24px;
+    height: 24px;
+  }
+  .main-section h1 {
+    font-size: 16px;
+  }
+  .main-section span{
+    font-size: 16px;  
+  }
+  .main-section .main-section-data h2 {
+    font-size: 24px;
+  }
+  .main-section .main-section-data p {
+    font-size: 14px;
+  }
+  .main-section a{
+    display: flex;
+    padding: 14px 20px;
+    gap: 12px;
+  }
+  .main-section .explore-courses {
+    font-size: 14px;
+  }
+  .main-section .view-pricing {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 1440px) {
+  .navbar {
+    padding: 20px 60px;
+  }
+  .container {
+    width: calc(100% - 60px);
+    margin: auto;
+  }
+  .navbar .logo {
+    padding: 5px;
+  }
+  .navbar .logo svg {
+    width: 32.593px;
+    height: 32.593px;
+    flex-shrink: 0;
+  }
+  .navbar-content ul li a {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+  .navbar .navbar-buttons {
+    gap: 30px;
+    font-size: 14px;
+  }
+  .navbar-buttons .login {
+    padding: 12px 24px;
+  }
+  /* <!-- ********************** Start Main  Section ************************ --> */
+  .main-section .shape {
+    left: -21px;
+    top: -21px;
+  }
+  .main-section .container {
+    width: calc(100% - 250px);
+  }
+  .main-section .row:first-of-type{
+    padding: 12px 24px 12px 12px;   
+  }
+  .main-section .main-logo {
+    padding: 12px;
+  }
+  .main-section .main-logo svg {
+    width: 24px;
+    height: 24px;
+  }
+  .main-section h1 {
+    font-size: 36px;
+  }
+  .main-section span{
+    font-size: 36px;  
+  }
+  .main-section .main-section-data h2 {
+    font-size: 28px;
+  }
+  .main-section .main-section-data p {
+    font-size: 16px;
+  }
+  .main-section .explore-courses {
+    font-size: 14px;
+  }
+  .main-section .view-pricing {
+    font-size: 14px;
+  }
+}
